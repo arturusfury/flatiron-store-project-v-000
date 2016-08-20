@@ -24,6 +24,8 @@ group :test, :development do
   gem "pry"
   gem "guard-rspec", require: false
   gem "thin"
+  gem 'awesome_print'
+  gem 'quiet_assets'
 end
 
 gem "bootstrap-sass", "~> 3.1.1"
